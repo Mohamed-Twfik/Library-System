@@ -1,0 +1,27 @@
+.card{
+    margin: 50px 0;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #002c3ec4;
+    color: #ccf2ff;
+}
+
+.card h2{
+    margin: 20px 0 40px;
+}
+
+.card p{
+    font-size: 1.1em;
+}
+
+.card small{
+    color: #85c3db !important;
+}
+
+.card a.btn{
+    background-color: #002c3ec4;
+    color: #85c3db;
+}
+.card a.btn:hover{
+    color: #b9e1f0;
+}

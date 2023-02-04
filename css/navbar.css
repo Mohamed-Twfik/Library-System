@@ -1,0 +1,43 @@
+body{
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.6)!important;
+    padding: 15px;
+}
+
+.navbar .collapse{
+    flex-direction: row-reverse;
+}
+
+.navbar .collapse a{
+    text-decoration: none;
+    color: #96d4ff !important;
+    margin: 0 20px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .collapse a:hover{
+    color: #d2ecff !important;
+}
+
+.navbar .collapse a.activeLink{
+    color: #d2ecff !important;
+}
+
+.navbar span#logo{
+    margin-right: 50px;
+}
+
+.navbar span#logo a{
+    transition: all .4s ease-in-out;
+    color: #d2ecff !important;
+    text-decoration: none;
+}
+
+.navbar span#logo a:hover{
+    color: #ffffff !important;
+}
+
